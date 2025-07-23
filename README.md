@@ -1,2 +1,2 @@
-# simplify
+# Simplify
 Browser extension to simplify text
