@@ -27,7 +27,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 async function simplifyText(text) {
   console.log('Starting simplifyText function with text:', text);
   
-  const prompt = `Please explain the following text in simple terms that anyone can understand: "${text}"`;
+  const prompt = `Please explain the following text in simple terms that a 5 year old can understand: "${text}"`;
   console.log('Generated prompt:', prompt);
 
   console.log('Making API request to Gemini');
