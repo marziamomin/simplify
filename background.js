@@ -1,6 +1,5 @@
-// actual Gemini API key
-const GEMINI_API_KEY = 'AIzaSyCIIM_meDxlotSay3m0omUl1xgElBpr6qo';
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent';
+// Import API configuration (config.js is gitignored)
+importScripts('config.js');
 
 console.log('Background script loaded');
 
