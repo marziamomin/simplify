@@ -1,0 +1,18 @@
+# API Configuration - Keep secrets out of git
+config.js
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
